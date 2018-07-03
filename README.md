@@ -1,6 +1,6 @@
 # Unsupervised Segmentation Using CNNs Applied to Food Analysis
 
-This repository is a collection of [Jupyter](https://jupyter.org/) notebooks which contain the work done in the final Master's Thesis of the [Master's Degree in the Foundations of Data Science](http://www.ub.edu/datascience/master/) supervised by Petia Radeva, PhD. The [Master's Thesis report](insert link here) is published in this repository in a PDF format.
+This repository is a collection of [Jupyter](https://jupyter.org/) notebooks which contain the work done in the final Master's Thesis of the [Master's Degree in the Foundations of Data Science](http://www.ub.edu/datascience/master/) supervised by Petia Radeva, PhD. The [Master's Thesis report](https://github.com/mbrufau7/tfm_food_segm/blob/master/Brufau_Ferrer_Gavalas_TFM.pdf) is published in this repository in a PDF format.
 
 In the recent times, there have been numerous papers on deep segmentation algorithms for vision tasks. The main challenge of these tasks is to obtain sufficient supervised pixel-level labels for the ground truth. The main goal of this project is to explore if Convolutional Neural Networks can be used for unsupervised segmentation. We follow a novel unsupervised deep architecture, capable of facing this challenge, called the W-net and we test it on food images. The main idea of this model is to concatenate two fully convolutional networks together into an autoencoder. The encoding layer produces a k-way pixelwise prediction, and both the reconstruction error of the autoencoder as well as the error from the decoder are jointly minimized during training. We search for the best architecture for this network and we compare the results for this unsupervised network with supervised results from a well-known network.
 
@@ -67,7 +67,7 @@ author={Brufau, Montserrat and Ferrer, Àlex and Gavalas, Markos},
 ```
 @misc{WnetMAMThesis,
 title={Unsupervised Segmentation Using CNNs Applied To Food Analysis},
-url={https://github.com/mbrufau7/tfm_food_segm},
+url={https://github.com/mbrufau7/tfm_food_segm/blob/master/Brufau_Ferrer_Gavalas_TFM.pdf},
 note={Report of the Master's Thesis: Unsupervised Segmentation Using CNNs Applied To Food Analysis},
 author={Brufau, Montserrat and Ferrer, Àlex and Gavalas, Markos},
   year={2018}
